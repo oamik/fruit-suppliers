@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, rgba(255, 215, 0, 0.5), rgba(255, 99, 71, 0.5));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+h1,
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    text-align: left;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.estimate-container {
+    flex: 1;
+}
+
+ul {
+    background-color: white;
+}
+
+li {
+    font-family: 'Lato';
+}
+
+.fruits-container {
+    flex: 3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+button.sortBtn:hover {
+    background-color: dimgray;
+}
